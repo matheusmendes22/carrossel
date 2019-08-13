@@ -1,0 +1,54 @@
+.carousel {
+  height: 100px;
+}
+
+.carousel-inner {
+  height: 100%;
+  padding: 0 100px;
+}
+
+.carousel-item {
+  height: 100%;
+  display: block;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel-item img {
+  width: 250px;
+  -webkit-filter: grayscale(95%);
+          filter: grayscale(95%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.carousel-item img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.carousel-item a:hover {
+  text-decoration: none;
+}
+
+.carousel-indicators li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent !important;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.carousel__title h3 span {
+  font-family: 'Charter';
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 36px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=carroussel.css.map */
