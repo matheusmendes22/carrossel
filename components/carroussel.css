@@ -7,6 +7,27 @@
   padding: 0 100px;
 }
 
+.carousel-item-2 {
+  height: 100%;
+  display: block;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel-item-2 img {
+  width: 250px;
+  -webkit-filter: grayscale(0%) !important;
+          filter: grayscale(0%) !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.carousel-item-2 a:hover {
+  text-decoration: none;
+}
+
 .carousel-item {
   height: 100%;
   display: block;

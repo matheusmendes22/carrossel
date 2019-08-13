@@ -2,11 +2,32 @@
     height: 100px;
 }
 
+
 .carousel-inner {
     height: 100%;
     padding: 0 100px;
 }
 
+
+
+.carousel-item-2 {
+    height: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+
+    img {
+        width: 250px;
+        filter: grayscale(0%)!important;
+        transition: 0.5s;
+        
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
 .carousel-item {
     height: 100%;
     display: block;
