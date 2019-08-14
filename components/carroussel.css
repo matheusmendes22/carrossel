@@ -206,5 +206,14 @@
   .newsletter__text2 {
     padding: 0 !important;
   }
+  .carousel {
+    height: 35px;
+  }
+  .carousel-item img {
+    width: 90px;
+  }
+  .carousel-inner {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=carroussel.css.map */
