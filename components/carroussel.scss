@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+
 .carousel {
     height: 100px;
 }
@@ -72,5 +76,101 @@ body {
             margin-bottom: 15px;
             margin-top: 40px;
         }
+    }
+}
+.newsletter__container{
+    img{
+        width: 80%;  
+    }
+}
+.newsletter__block{
+    background-color: rgb(255, 252, 245);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.newsletter__text{
+    padding: 10px;
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #047181;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #00262c;
+    }
+    input{
+        background-color: #c41230;
+        color: #fff !important;
+        border-radius: 5px;
+        padding: 5px 0 5px 15px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        &::placeholder { 
+            color: #fff;
+          }
+    }
+    button{
+        margin-left: 10px;
+        padding: 5px ;
+        background-color: #c41230;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+.newsletter__text2{
+    img{
+        width:65% !important;
+    }
+    padding: 10px 200px !important;
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #047181;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #00262c;
+    }
+    input{
+        background-color: #047181;
+        color: #fff !important;
+        border-radius: 5px;
+        padding: 5px 0 5px 15px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        &::placeholder { 
+            color: #fff;
+          }
+    }
+    button{
+        margin-left: 10px;
+        padding: 5px ;
+        background-color: #047181;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+@media(max-width:978px){
+    .newsletter__text2{
+        padding: 0 !important;
     }
 }
